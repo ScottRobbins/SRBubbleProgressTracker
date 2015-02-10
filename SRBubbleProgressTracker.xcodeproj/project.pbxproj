@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC98AD151A89A90B00412BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD141A89A90B00412BA3 /* AppDelegate.swift */; };
+		EC98AD171A89A90B00412BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD161A89A90B00412BA3 /* ViewController.swift */; };
+		EC98AD1A1A89A90B00412BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD181A89A90B00412BA3 /* Main.storyboard */; };
+		EC98AD1C1A89A90B00412BA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD1B1A89A90B00412BA3 /* Images.xcassets */; };
+		EC98AD1F1A89A90B00412BA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */; };
+		EC98AD2B1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC98AD251A89A90B00412BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC98AD071A89A90B00412BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC98AD0E1A89A90B00412BA3;
+			remoteInfo = SRBubbleProgressTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC98AD0F1A89A90B00412BA3 /* SRBubbleProgressTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRBubbleProgressTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98AD131A89A90B00412BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC98AD141A89A90B00412BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC98AD161A89A90B00412BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC98AD191A89A90B00412BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC98AD1B1A89A90B00412BA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC98AD1E1A89A90B00412BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC98AD241A89A90B00412BA3 /* SRBubbleProgressTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRBubbleProgressTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98AD291A89A90B00412BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBubbleProgressTrackerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC98AD0C1A89A90B00412BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98AD211A89A90B00412BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC98AD061A89A90B00412BA3 = {
+			isa = PBXGroup;
+			children = (
+				EC98AD111A89A90B00412BA3 /* SRBubbleProgressTracker */,
+				EC98AD271A89A90B00412BA3 /* SRBubbleProgressTrackerTests */,
+				EC98AD101A89A90B00412BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC98AD101A89A90B00412BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC98AD0F1A89A90B00412BA3 /* SRBubbleProgressTracker.app */,
+				EC98AD241A89A90B00412BA3 /* SRBubbleProgressTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC98AD111A89A90B00412BA3 /* SRBubbleProgressTracker */ = {
+			isa = PBXGroup;
+			children = (
+				EC98AD141A89A90B00412BA3 /* AppDelegate.swift */,
+				EC98AD161A89A90B00412BA3 /* ViewController.swift */,
+				EC98AD181A89A90B00412BA3 /* Main.storyboard */,
+				EC98AD1B1A89A90B00412BA3 /* Images.xcassets */,
+				EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */,
+				EC98AD121A89A90B00412BA3 /* Supporting Files */,
+			);
+			path = SRBubbleProgressTracker;
+			sourceTree = "<group>";
+		};
+		EC98AD121A89A90B00412BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC98AD131A89A90B00412BA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC98AD271A89A90B00412BA3 /* SRBubbleProgressTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */,
+				EC98AD281A89A90B00412BA3 /* Supporting Files */,
+			);
+			path = SRBubbleProgressTrackerTests;
+			sourceTree = "<group>";
+		};
+		EC98AD281A89A90B00412BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC98AD291A89A90B00412BA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC98AD0E1A89A90B00412BA3 /* SRBubbleProgressTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98AD2E1A89A90B00412BA3 /* Build configuration list for PBXNativeTarget "SRBubbleProgressTracker" */;
+			buildPhases = (
+				EC98AD0B1A89A90B00412BA3 /* Sources */,
+				EC98AD0C1A89A90B00412BA3 /* Frameworks */,
+				EC98AD0D1A89A90B00412BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRBubbleProgressTracker;
+			productName = SRBubbleProgressTracker;
+			productReference = EC98AD0F1A89A90B00412BA3 /* SRBubbleProgressTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC98AD231A89A90B00412BA3 /* SRBubbleProgressTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98AD311A89A90B00412BA3 /* Build configuration list for PBXNativeTarget "SRBubbleProgressTrackerTests" */;
+			buildPhases = (
+				EC98AD201A89A90B00412BA3 /* Sources */,
+				EC98AD211A89A90B00412BA3 /* Frameworks */,
+				EC98AD221A89A90B00412BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC98AD261A89A90B00412BA3 /* PBXTargetDependency */,
+			);
+			name = SRBubbleProgressTrackerTests;
+			productName = SRBubbleProgressTrackerTests;
+			productReference = EC98AD241A89A90B00412BA3 /* SRBubbleProgressTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC98AD071A89A90B00412BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Scott Robbins Software";
+				TargetAttributes = {
+					EC98AD0E1A89A90B00412BA3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC98AD231A89A90B00412BA3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC98AD0E1A89A90B00412BA3;
+					};
+				};
+			};
+			buildConfigurationList = EC98AD0A1A89A90B00412BA3 /* Build configuration list for PBXProject "SRBubbleProgressTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC98AD061A89A90B00412BA3;
+			productRefGroup = EC98AD101A89A90B00412BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC98AD0E1A89A90B00412BA3 /* SRBubbleProgressTracker */,
+				EC98AD231A89A90B00412BA3 /* SRBubbleProgressTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC98AD0D1A89A90B00412BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98AD1A1A89A90B00412BA3 /* Main.storyboard in Resources */,
+				EC98AD1F1A89A90B00412BA3 /* LaunchScreen.xib in Resources */,
+				EC98AD1C1A89A90B00412BA3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98AD221A89A90B00412BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC98AD0B1A89A90B00412BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98AD171A89A90B00412BA3 /* ViewController.swift in Sources */,
+				EC98AD151A89A90B00412BA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98AD201A89A90B00412BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98AD2B1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC98AD261A89A90B00412BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC98AD0E1A89A90B00412BA3 /* SRBubbleProgressTracker */;
+			targetProxy = EC98AD251A89A90B00412BA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC98AD181A89A90B00412BA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC98AD191A89A90B00412BA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC98AD1E1A89A90B00412BA3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC98AD2C1A89A90B00412BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC98AD2D1A89A90B00412BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC98AD2F1A89A90B00412BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRBubbleProgressTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC98AD301A89A90B00412BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRBubbleProgressTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC98AD321A89A90B00412BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SRBubbleProgressTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRBubbleProgressTracker.app/SRBubbleProgressTracker";
+			};
+			name = Debug;
+		};
+		EC98AD331A89A90B00412BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SRBubbleProgressTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRBubbleProgressTracker.app/SRBubbleProgressTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC98AD0A1A89A90B00412BA3 /* Build configuration list for PBXProject "SRBubbleProgressTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98AD2C1A89A90B00412BA3 /* Debug */,
+				EC98AD2D1A89A90B00412BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98AD2E1A89A90B00412BA3 /* Build configuration list for PBXNativeTarget "SRBubbleProgressTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98AD2F1A89A90B00412BA3 /* Debug */,
+				EC98AD301A89A90B00412BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC98AD311A89A90B00412BA3 /* Build configuration list for PBXNativeTarget "SRBubbleProgressTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98AD321A89A90B00412BA3 /* Debug */,
+				EC98AD331A89A90B00412BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC98AD071A89A90B00412BA3 /* Project object */;
+}
