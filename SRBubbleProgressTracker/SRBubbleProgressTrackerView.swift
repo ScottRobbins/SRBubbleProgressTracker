@@ -8,12 +8,12 @@
 
 import UIKit
 
-enum BubbleAllignment {
+public enum BubbleAllignment {
     case Vertical
     case Horizontal
 }
 
-class SRBubbleProgressTrackerView : UIView {
+public class SRBubbleProgressTrackerView : UIView {
 
     // MARK: Initializations
     private var lastBubbleCompleted = 0
@@ -33,7 +33,7 @@ class SRBubbleProgressTrackerView : UIView {
     
     // MARK: Setup View
     
-    func setupInitialBubbleProgressTrackerView(numBubbles : Int, dotDiameter : CGFloat, allign : BubbleAllignment) {
+    public func setupInitialBubbleProgressTrackerView(numBubbles : Int, dotDiameter : CGFloat, allign : BubbleAllignment) {
         bubbleAllignment = allign
         connectLineArray.removeAll(keepCapacity: false)
         bubbleArray.removeAll(keepCapacity: false)
@@ -56,7 +56,7 @@ class SRBubbleProgressTrackerView : UIView {
         }
     }
     
-    func setupInitialBubbleProgressTrackerView(numBubbles : Int, dotDiameter : CGFloat, allign : BubbleAllignment, leftOrTopViews : [UIView], rightOrBottomViews : [UIView]) {
+    public func setupInitialBubbleProgressTrackerView(numBubbles : Int, dotDiameter : CGFloat, allign : BubbleAllignment, leftOrTopViews : [UIView], rightOrBottomViews : [UIView]) {
         
         let spaceLeftOrTopOfBubbles : CGFloat = 20.0
         bubbleAllignment = allign
@@ -165,7 +165,7 @@ class SRBubbleProgressTrackerView : UIView {
     }
     
     // MARK: Magic
-    func bubbleCompleted(numBubbleCompleted : Int) {
+    public func bubbleCompleted(numBubbleCompleted : Int) {
         if numBubbleCompleted >= bubbleArray.count {
             if lastBubbleCompleted == bubbleArray.count { return }
             
