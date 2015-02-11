@@ -14,7 +14,7 @@
 		EC98AD1C1A89A90B00412BA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD1B1A89A90B00412BA3 /* Images.xcassets */; };
 		EC98AD1F1A89A90B00412BA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */; };
 		EC98AD2B1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */; };
-		ECC0B2DA1A8B0393003FEA21 /* SRBubbleProgressTracker.gif in Resources */ = {isa = PBXBuildFile; fileRef = ECC0B2D91A8B0393003FEA21 /* SRBubbleProgressTracker.gif */; };
+		ECC0B2DC1A8B0572003FEA21 /* SRBubbleProgressTracker.gif in Resources */ = {isa = PBXBuildFile; fileRef = ECC0B2DB1A8B0572003FEA21 /* SRBubbleProgressTracker.gif */; };
 		ECD736321A8B017A00074A4F /* SetOutlet.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD7362F1A8B017A00074A4F /* SetOutlet.png */; };
 		ECD736331A8B017A00074A4F /* SetBubbleCompleted.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD736301A8B017A00074A4F /* SetBubbleCompleted.png */; };
 		ECD736341A8B017A00074A4F /* SetCustomClass.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD736311A8B017A00074A4F /* SetCustomClass.png */; };
@@ -42,7 +42,7 @@
 		EC98AD241A89A90B00412BA3 /* SRBubbleProgressTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRBubbleProgressTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98AD291A89A90B00412BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBubbleProgressTrackerTests.swift; sourceTree = "<group>"; };
-		ECC0B2D91A8B0393003FEA21 /* SRBubbleProgressTracker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SRBubbleProgressTracker.gif; sourceTree = "<group>"; };
+		ECC0B2DB1A8B0572003FEA21 /* SRBubbleProgressTracker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SRBubbleProgressTracker.gif; sourceTree = "<group>"; };
 		ECD7362F1A8B017A00074A4F /* SetOutlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetOutlet.png; sourceTree = "<group>"; };
 		ECD736301A8B017A00074A4F /* SetBubbleCompleted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetBubbleCompleted.png; sourceTree = "<group>"; };
 		ECD736311A8B017A00074A4F /* SetCustomClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetCustomClass.png; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		ECD7362E1A8B00DC00074A4F /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				ECC0B2D91A8B0393003FEA21 /* SRBubbleProgressTracker.gif */,
+				ECC0B2DB1A8B0572003FEA21 /* SRBubbleProgressTracker.gif */,
 				ECD7362F1A8B017A00074A4F /* SetOutlet.png */,
 				ECD736301A8B017A00074A4F /* SetBubbleCompleted.png */,
 				ECD736311A8B017A00074A4F /* SetCustomClass.png */,
@@ -215,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC0B2DA1A8B0393003FEA21 /* SRBubbleProgressTracker.gif in Resources */,
+				ECC0B2DC1A8B0572003FEA21 /* SRBubbleProgressTracker.gif in Resources */,
 				EC98AD1A1A89A90B00412BA3 /* Main.storyboard in Resources */,
 				ECD736321A8B017A00074A4F /* SetOutlet.png in Resources */,
 				ECD736331A8B017A00074A4F /* SetBubbleCompleted.png in Resources */,
