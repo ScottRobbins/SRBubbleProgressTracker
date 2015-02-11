@@ -14,6 +14,9 @@
 		EC98AD1C1A89A90B00412BA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD1B1A89A90B00412BA3 /* Images.xcassets */; };
 		EC98AD1F1A89A90B00412BA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */; };
 		EC98AD2B1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */; };
+		ECD736321A8B017A00074A4F /* SetOutlet.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD7362F1A8B017A00074A4F /* SetOutlet.png */; };
+		ECD736331A8B017A00074A4F /* SetBubbleCompleted.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD736301A8B017A00074A4F /* SetBubbleCompleted.png */; };
+		ECD736341A8B017A00074A4F /* SetCustomClass.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD736311A8B017A00074A4F /* SetCustomClass.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		EC98AD241A89A90B00412BA3 /* SRBubbleProgressTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRBubbleProgressTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98AD291A89A90B00412BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC98AD2A1A89A90B00412BA3 /* SRBubbleProgressTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBubbleProgressTrackerTests.swift; sourceTree = "<group>"; };
+		ECD7362F1A8B017A00074A4F /* SetOutlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetOutlet.png; sourceTree = "<group>"; };
+		ECD736301A8B017A00074A4F /* SetBubbleCompleted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetBubbleCompleted.png; sourceTree = "<group>"; };
+		ECD736311A8B017A00074A4F /* SetCustomClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetCustomClass.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				EC98AD181A89A90B00412BA3 /* Main.storyboard */,
 				EC98AD1B1A89A90B00412BA3 /* Images.xcassets */,
 				EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */,
+				ECD7362E1A8B00DC00074A4F /* Screenshots */,
 				EC98AD121A89A90B00412BA3 /* Supporting Files */,
 			);
 			path = SRBubbleProgressTracker;
@@ -113,6 +120,16 @@
 				EC98AD291A89A90B00412BA3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECD7362E1A8B00DC00074A4F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7362F1A8B017A00074A4F /* SetOutlet.png */,
+				ECD736301A8B017A00074A4F /* SetBubbleCompleted.png */,
+				ECD736311A8B017A00074A4F /* SetCustomClass.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC98AD1A1A89A90B00412BA3 /* Main.storyboard in Resources */,
+				ECD736321A8B017A00074A4F /* SetOutlet.png in Resources */,
+				ECD736331A8B017A00074A4F /* SetBubbleCompleted.png in Resources */,
 				EC98AD1F1A89A90B00412BA3 /* LaunchScreen.xib in Resources */,
+				ECD736341A8B017A00074A4F /* SetCustomClass.png in Resources */,
 				EC98AD1C1A89A90B00412BA3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
