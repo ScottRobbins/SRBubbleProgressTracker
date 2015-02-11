@@ -35,6 +35,7 @@ This should be placed AFTER auto-layout has layed out all of the subviews, becau
         var leftLabels = getLabelArray(5, direction: "Left") // returns UILabels
         var rightLabels = getLabelArray(5, direction: "Right")
         
+        // Will place bubbles in the center of the view
         bubbleTrackerView.setupInitialBubbleProgressTrackerView(5, dotDiameter: 75.0, allign: .Vertical, leftOrTopViews: leftLabels, rightOrBottomViews: rightLabels)
         bubbleTrackerViewIsSetup = true
     }
