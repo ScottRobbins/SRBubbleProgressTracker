@@ -3,7 +3,7 @@ A view to display progress throughout a series of functions in your app. Animate
 
 ![Bubble Progress Tracker in action](/SRBubbleProgressTracker/SRBubbleProgressTracker.gif?raw=true "Bubble Progress Tracker in action")
 
-##Install Easist with CocoaPods
+##Install Easiest with CocoaPods
 Put this in your 'podfile' in the root directory:
 <pre>
     platform :ios, '8.0'
