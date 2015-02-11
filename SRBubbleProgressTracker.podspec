@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/ssrobbi/SRBubbleProgressTracker.git", :tag => "1.0.0" }
-  s.source_files = "SRBubbleProgressTracker/*.swift"
+  s.source_files = "SRBubbleProgressTracker/SRBubbleProgressTrackerView.swift"
   s.requires_arc = true
 
 
