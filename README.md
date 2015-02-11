@@ -19,6 +19,12 @@ ___________________________
 Start Out by adding a view to your Storyboard/Nib (the view can also be instantiated in code), and setting it to the custom "SRBubbleProgressTracker.swift" class.
 ![Add Custom Class](/SRBubbleProgressTracker/SetCustomClass.png?raw=true "Add Custom Class")
 
+##Import the Module
+Inside of the file you want to use the SRBubbleProgressTrackerView you will have to import the module:
+<pre>
+    import SRBubbleProgressTracker
+</pre>
+
 ##Set an outlet to that view
 <pre>
     @IBOutlet weak var bubbleTrackerView: SRBubbleProgressTrackerView!
