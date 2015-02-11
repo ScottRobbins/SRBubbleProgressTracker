@@ -3,6 +3,17 @@ A view to display progress throughout a series of functions in your app. Animate
 
 ![Bubble Progress Tracker in action](/SRBubbleProgressTracker/SRBubbleProgressTracker.gif?raw=true "Bubble Progress Tracker in action")
 
+##Install Easist with CocoaPods
+Put this in your 'podfile' in the root directory:
+<pre>
+    platform :ios, '8.0'
+    pod 'SRBubbleProgressTracker', :git => 'https://github.com/ssrobbi/SRBubbleProgressTracker.git'
+</pre>
+
+Then run:
+<pre>
+    pod install
+</pre>
 ___________________________
 ##Add View to Storyboard
 Start Out by adding a view to your Storyboard/Nib (the view can also be instantiated in code), and setting it to the custom "SRBubbleProgressTracker.swift" class.
