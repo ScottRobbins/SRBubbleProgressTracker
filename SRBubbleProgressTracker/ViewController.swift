@@ -9,17 +9,47 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var lastButtonSelected = 0
+    var bubbleTrackerViewIsSetup = false
+    
+    @IBOutlet weak var bubbleTrackerView: SRBubbleProgressTrackerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(animated: Bool) {
+        
     }
-
-
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        if bubbleTrackerViewIsSetup { return }
+        var leftLabels = getLabelArray(5, direction: "Left")
+        var rightLabels = getLabelArray(5, direction: "Right")
+        
+        bubbleTrackerView.setupInitialBubbleProgressTrackerView(5, dotDiameter: 75.0, allign: .Vertical, leftOrTopViews: leftLabels, rightOrBottomViews: rightLabels)
+        bubbleTrackerViewIsSetup = true
+    }
+    
+    func getLabelArray(numLabels : Int, direction : String) -> Array<UILabel> {
+        var labelArray = Array<UILabel>()
+        
+        for i in 0..<numLabels {
+            var label = UILabel()
+            label.text = "\(direction) \(i)"
+            label.sizeToFit()
+            labelArray.append(label)
+        }
+        
+        return labelArray
+    }
+    
+    @IBAction func nextButtonPressed(sender: UIButton) {
+        lastButtonSelected = lastButtonSelected+1
+        bubbleTrackerView.bubbleCompleted(lastButtonSelected)
+    }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC9016881A89E7E900A9D057 /* SRBubbleProgressTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9016871A89E7E900A9D057 /* SRBubbleProgressTrackerView.swift */; };
 		EC98AD151A89A90B00412BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD141A89A90B00412BA3 /* AppDelegate.swift */; };
 		EC98AD171A89A90B00412BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98AD161A89A90B00412BA3 /* ViewController.swift */; };
 		EC98AD1A1A89A90B00412BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98AD181A89A90B00412BA3 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC9016871A89E7E900A9D057 /* SRBubbleProgressTrackerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRBubbleProgressTrackerView.swift; sourceTree = "<group>"; };
 		EC98AD0F1A89A90B00412BA3 /* SRBubbleProgressTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRBubbleProgressTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98AD131A89A90B00412BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC98AD141A89A90B00412BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				EC98AD141A89A90B00412BA3 /* AppDelegate.swift */,
 				EC98AD161A89A90B00412BA3 /* ViewController.swift */,
+				EC9016871A89E7E900A9D057 /* SRBubbleProgressTrackerView.swift */,
 				EC98AD181A89A90B00412BA3 /* Main.storyboard */,
 				EC98AD1B1A89A90B00412BA3 /* Images.xcassets */,
 				EC98AD1D1A89A90B00412BA3 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				EC98AD171A89A90B00412BA3 /* ViewController.swift in Sources */,
 				EC98AD151A89A90B00412BA3 /* AppDelegate.swift in Sources */,
+				EC9016881A89E7E900A9D057 /* SRBubbleProgressTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				EC98AD301A89A90B00412BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC98AD311A89A90B00412BA3 /* Build configuration list for PBXNativeTarget "SRBubbleProgressTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				EC98AD331A89A90B00412BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
