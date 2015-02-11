@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "7.0"
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/ssrobbi/SRBubbleProgressTracker.git", :tag => "1.0.0" }
-  s.source_files = "SRBubbleProgressTracker"
+  s.source_files = "SRBubbleProgressTracker/*.swift"
   s.requires_arc = true
 
 
