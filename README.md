@@ -20,7 +20,9 @@ Start Out by adding a view to your Storyboard/Nib (the view can also be instanti
 ![Add Custom Class](/SRBubbleProgressTracker/SetCustomClass.png?raw=true "Add Custom Class")
 
 ##Set an outlet to that view
-![Set Outlet](/SRBubbleProgressTracker/SetOutlet.png?raw=true "Set Outlet")
+<pre>
+    @IBOutlet weak var bubbleTrackerView: SRBubbleProgressTrackerView!
+</pre>
 
 ##Setup the view
 setup the view passing in the Number of Dots, Dot Diameter, To allign Vertical or Horizontal, (Optional)An array of views to display to the left or top, (optional) an array of views to display to the right or bottom.
