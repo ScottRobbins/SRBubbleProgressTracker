@@ -12,7 +12,7 @@ Put this in your 'podfile' in the root directory:
 
 Then run:
 <pre>
-    pod install
+    $pod install
 </pre>
 ___________________________
 ##Add View to Storyboard
