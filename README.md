@@ -60,7 +60,7 @@ _______________
 #Customization
 
 ##Manipulate Colors
-To manipulate colors, change the properties of the colors before calling <code>setupInitialBubbleProgressTrackerView(...)</code>
+To manipulate colors, change the properties of the colors before calling OR Changing them in interface builder <code>setupInitialBubbleProgressTrackerView(...)</code>
 
 You can manipulate:
 <pre>
