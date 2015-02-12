@@ -22,14 +22,23 @@ public class SRBubbleProgressTrackerView : UIView {
     private var bubbleAllignment = BubbleAllignment.Vertical
     
     // MARK: Color Defaults
-    var lineColorForNotCompleted = UIColor.grayColor()
-    var lineColorForCompleted = UIColor.greenColor()
-    var bubbleBackgroundColorForNotCompleted = UIColor.grayColor()
-    var bubbleBackgroundColorForCompleted = UIColor.greenColor()
-    var bubbleBackgroundColorForNextToComplete = UIColor.orangeColor()
-    var bubbleTextColorForNotCompleted = UIColor.whiteColor()
-    var bubbleTextColorForCompleted = UIColor.whiteColor()
-    var bubbleTextColorForNextToComplete = UIColor.whiteColor()
+    
+    @IBInspectable
+    var lineColorForNotCompleted : UIColor = .grayColor()
+    @IBInspectable
+    var lineColorForCompleted : UIColor = .greenColor()
+    @IBInspectable
+    var bubbleBackgroundColorForNotCompleted : UIColor = .grayColor()
+    @IBInspectable
+    var bubbleBackgroundColorForCompleted : UIColor = .greenColor()
+    @IBInspectable
+    var bubbleBackgroundColorForNextToComplete : UIColor = .orangeColor()
+    @IBInspectable
+    var bubbleTextColorForNotCompleted : UIColor = .whiteColor()
+    @IBInspectable
+    var bubbleTextColorForCompleted : UIColor = .whiteColor()
+    @IBInspectable
+    var bubbleTextColorForNextToComplete : UIColor = .whiteColor()
     
     // MARK: Setup View
     
