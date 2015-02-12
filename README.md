@@ -64,13 +64,12 @@ To manipulate colors, change the properties of the colors before calling OR Chan
 
 You can manipulate:
 <pre>
-    // MARK: Color Defaults
-    var lineColorForNotCompleted = UIColor.grayColor()
-    var lineColorForCompleted = UIColor.greenColor()
-    var bubbleBackgroundColorForNotCompleted = UIColor.grayColor()
-    var bubbleBackgroundColorForCompleted = UIColor.greenColor()
-    var bubbleBackgroundColorForNextToComplete = UIColor.orangeColor()
-    var bubbleTextColorForNotCompleted = UIColor.whiteColor()
-    var bubbleTextColorForCompleted = UIColor.whiteColor()
-    var bubbleTextColorForNextToComplete = UIColor.whiteColor()
+    var lineColorForNotCompleted : UIColor                  = .grayColor()
+    var lineColorForCompleted : UIColor                     = .greenColor()
+    var bubbleBackgroundColorForNotCompleted : UIColor      = .grayColor()
+    var bubbleBackgroundColorForCompleted : UIColor         = .greenColor()
+    var bubbleBackgroundColorForNextToComplete : UIColor    = .orangeColor()
+    var bubbleTextColorForNotCompleted : UIColor            = .whiteColor()
+    var bubbleTextColorForCompleted : UIColor               = .whiteColor()
+    var bubbleTextColorForNextToComplete : UIColor          = .whiteColor()
 </pre>
