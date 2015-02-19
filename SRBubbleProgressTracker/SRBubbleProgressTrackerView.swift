@@ -20,9 +20,9 @@ public class SRBubbleProgressTrackerView : UIView {
     private var bubbleArray = [UIView]()
     private var connectLineArray = [UIView]()
     private var bubbleAllignment = BubbleAllignment.Vertical
+    private var animateToBubbleQueue = [Int]()
     
     // MARK: Color Defaults
-    
     @IBInspectable
     var lineColorForNotCompleted : UIColor = .grayColor()
     @IBInspectable
@@ -41,10 +41,12 @@ public class SRBubbleProgressTrackerView : UIView {
     var bubbleTextColorForNextToComplete : UIColor = .whiteColor()
     
     // MARK: Setup View
-    
     public func setupInitialBubbleProgressTrackerView(numBubbles : Int, dotDiameter : CGFloat, allign : BubbleAllignment) {
         bubbleAllignment = allign
+        for line in connectLineArray { line.removeFromSuperview() }
         connectLineArray.removeAll(keepCapacity: false)
+        
+        for bubble in bubbleArray { removeFromSuperview() }
         bubbleArray.removeAll(keepCapacity: false)
         lastBubbleCompleted = 0
         
@@ -175,17 +177,39 @@ public class SRBubbleProgressTrackerView : UIView {
     
     // MARK: Magic
     public func bubbleCompleted(numBubbleCompleted : Int) {
-        if numBubbleCompleted >= bubbleArray.count {
-            if lastBubbleCompleted == bubbleArray.count { return }
-            
-            checkBubbleCompleted(bubbleArray.count, start: lastBubbleCompleted++)
+        if animateToBubbleQueue.isEmpty {
+            if let startBubble = getStartBubble(numBubbleCompleted) {
+                animateToBubbleQueue.append(startBubble)
+                checkBubbleCompleted(startBubble, start: lastBubbleCompleted++)
+            }
         } else {
+            animateToBubbleQueue.append(numBubbleCompleted)
+        }
+    }
+    
+    private func removeAnimatedBubbleFromQueueAndContinue() {
+        if !animateToBubbleQueue.isEmpty {
+            animateToBubbleQueue.removeAtIndex(0)
             
-            if lastBubbleCompleted >= numBubbleCompleted { return }
-            
-            checkBubbleCompleted(numBubbleCompleted, start: lastBubbleCompleted++)
+            if !animateToBubbleQueue.isEmpty {
+                if let startBubble = getStartBubble(animateToBubbleQueue[0]) {
+                    checkBubbleCompleted(startBubble, start: lastBubbleCompleted++)
+                }
+            }
+        }
+    }
+    
+    private func getStartBubble(numBubbleCompleted : Int) -> Int? {
+        var startBubble = Int()
+        if numBubbleCompleted >= bubbleArray.count {
+            if lastBubbleCompleted == bubbleArray.count { return nil }
+            startBubble = bubbleArray.count
+        } else {
+            if lastBubbleCompleted >= numBubbleCompleted { return nil }
+            startBubble = numBubbleCompleted
         }
         
+        return startBubble
     }
     
     private func checkBubbleCompleted(numBubbleCompleted : Int, start : Int) {
@@ -259,8 +283,12 @@ public class SRBubbleProgressTrackerView : UIView {
                             
                             if (start+1 < numBubbleCompleted) {
                                 self.checkBubbleCompleted(numBubbleCompleted, start: self.lastBubbleCompleted++)
+                            } else {
+                                self.removeAnimatedBubbleFromQueueAndContinue()
                             }
                     })
+                } else {
+                    self.removeAnimatedBubbleFromQueueAndContinue()
                 }
         })
         

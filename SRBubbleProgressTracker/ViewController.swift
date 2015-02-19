@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var lastButtonSelected = 0
+    var lastButtonSelected = 5
     var bubbleTrackerViewIsSetup = false
     
     @IBOutlet weak var bubbleTrackerView: SRBubbleProgressTrackerView!
@@ -27,10 +27,10 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         if bubbleTrackerViewIsSetup { return }
-        var leftLabels = getLabelArray(5, direction: "Left")
-        var rightLabels = getLabelArray(5, direction: "Right")
+        var leftLabels = getLabelArray(7, direction: "Left")
+        var rightLabels = getLabelArray(7, direction: "Right")
         
-        bubbleTrackerView.setupInitialBubbleProgressTrackerView(5, dotDiameter: 75.0, allign: .Vertical, leftOrTopViews: leftLabels, rightOrBottomViews: rightLabels)
+        bubbleTrackerView.setupInitialBubbleProgressTrackerView(7, dotDiameter: 60.0, allign: .Vertical, leftOrTopViews: leftLabels, rightOrBottomViews: rightLabels)
         bubbleTrackerViewIsSetup = true
     }
     
