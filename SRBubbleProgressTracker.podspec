@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SRBubbleProgressTracker"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "A simple bubble progress tracker!"
 
   s.description  = <<-DESC

@@ -183,6 +183,9 @@ public class SRBubbleProgressTrackerView : UIView {
                 checkBubbleCompleted(startBubble, start: lastBubbleCompleted++)
             }
         } else {
+            for num in animateToBubbleQueue {
+                if num >= numBubbleCompleted { return }
+            }
             animateToBubbleQueue.append(numBubbleCompleted)
         }
     }
