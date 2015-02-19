@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var lastButtonSelected = 5
+    var lastButtonSelected = 0
     var bubbleTrackerViewIsSetup = false
     
     @IBOutlet weak var bubbleTrackerView: SRBubbleProgressTrackerView!
